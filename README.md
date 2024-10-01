@@ -1,8 +1,8 @@
 ## HARV: Empowering Farmers, Connecting Communities:
 ## MISSION:
 To empower farmers by providing a direct-to-consumer platform that ensures fair pricing, fosters sustainable agriculture, and delivers fresh, locally sourced products to consumers efficiently.
-## VISION :
-To create a world where farming communities thrive through direct consumer relationships, sustainable practices, and a transparent supply chain that transforms how people access fresh food.
+## Vision:
+ To create a world where farming communities thrive through direct consumer relationships, sustainable practices, and a transparent supply chain that transforms how people access fresh food.
 ## Description:
 <strong>Direct Farmer-to-Consumer Connection:</strong> HARV eliminates middlemen, connecting farmers directly with consumers.
 
@@ -16,6 +16,7 @@ To create a world where farming communities thrive through direct consumer relat
 Only top-graded farmers are able to sell their produce on the platform, ensuring high-quality products.
 
 <strong>Consumer Review System:</strong>
+
 <ul>
   <li>After each purchase, consumers can review and rate farmers.</li</br>
   <li>Ratings influence the visibility and reputation of farmers, ensuring only consistently high-rated farmers succeed.</li></br>
@@ -48,5 +49,17 @@ Only top-graded farmers are able to sell their produce on the platform, ensuring
 <strong>Review System:</strong>Customers can review products and farmers.</br>
 
 <strong>Weather Forecast Integration:</strong> Helps farmers make informed decisions.</br>
+
+## TECHNOLOGY USED:
+<ul>
+ <li>ReactJS</li>
+ <li>NodeJS</li>
+ <li>ExpressJS</li>
+ <li>MongoDB</li>
+ <li>API:  Payment Gateway API</li>
+ <li>Other Tools: GIT, Docker</li>
+</ul>
+
+
 
 
