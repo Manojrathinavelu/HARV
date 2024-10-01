@@ -12,6 +12,7 @@
   <li>Weather conditions</li></br>
   <li>Crop type</li></br>
   <li>Seasonality</li></br>
+  
 Only top-graded farmers are able to sell their produce on the platform, ensuring high-quality products.
 
 <strong>Consumer Review System:</strong>
@@ -45,4 +46,7 @@ Only top-graded farmers are able to sell their produce on the platform, ensuring
 <strong>Farmer Profile:</strong> Farmers can create profiles, list products, and track sales and also they can post pictures of the crops.</br>
 
 <strong>Review System:</strong>Customers can review products and farmers.</br>
+
 <strong>Weather Forecast Integration:</strong> Helps farmers make informed decisions.</br>
+
+
