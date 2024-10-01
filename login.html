@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - FarmDirect</title>
+    <style>
+        /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Container Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Login Container */
+.login-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+/* User Type Selector */
+.user-type-selector {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.user-type-selector button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 5px; /* Spacing between buttons */
+    transition: background-color 0.3s ease;
+}
+
+.user-type-selector button:hover {
+    background-color: #1e8449; /* Darken on hover */
+}
+
+.user-type-selector .active {
+    background-color: #1e8449; /* Active button style */
+}
+
+/* Login Form Styles */
+.login-form {
+    display: none; /* Hide forms by default */
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-form input:focus {
+    border-color: #27ae60;
+    outline: none;
+}
+
+.login-form button {
+    width: 100%;
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #1e8449;
+}
+
+/* Show login form */
+.login-form.hidden {
+    display: none; /* Hide when inactive */
+}
+
+.login-form:not(.hidden) {
+    display: block; /* Show when active */
+}
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to FarmDirect</h2>
+        <div class="user-type-selector">
+            <button id="customer-btn" class="active">Customer</button>
+            <button id="farmer-btn">Farmer</button>
+        </div>
+
+        <div id="customer-login" class="login-form">
+            <form action="#">
+                <label for="customer-email">Email Address</label>
+                <input type="email" id="customer-email" name="customer-email" placeholder="Enter your email" required>
+
+                <label for="customer-password">Password</label>
+                <input type="password" id="customer-password" name="customer-password" placeholder="Enter your password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div id="farmer-login" class="login-form hidden">
+            <form action="#">
+                <label for="farmer-email">Email Address</label>
+                <input type="email" id="farmer-email" name="farmer-email" placeholder="Enter your email" required>
+
+                <label for="farmer-password">Password</label>
+                <input type="password" id="farmer-password" name="farmer-password" placeholder="Enter your password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // script.js
+
+document.addEventListener("DOMContentLoaded", function () {
+    const customerBtn = document.getElementById("customer-btn");
+    const farmerBtn = document.getElementById("farmer-btn");
+    const customerLogin = document.getElementById("customer-login");
+    const farmerLogin = document.getElementById("farmer-login");
+
+    customerBtn.addEventListener("click", function () {
+        customerLogin.classList.remove("hidden");
+        farmerLogin.classList.add("hidden");
+        customerBtn.classList.add("active");
+        farmerBtn.classList.remove("active");
+    });
+
+    farmerBtn.addEventListener("click", function () {
+        farmerLogin.classList.remove("hidden");
+        customerLogin.classList.add("hidden");
+        farmerBtn.classList.add("active");
+        customerBtn.classList.remove("active");
+    });
+});
+
+    </script>
+</body>
+</html>

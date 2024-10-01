@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - FarmDirect</title>
+<style>
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Container Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light background to keep things easy on the eyes */
+    color: #333;
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center;     /* Center the form vertically */
+    height: 100vh;           /* Full viewport height */
+    padding: 20px;           /* Extra padding to ensure space on mobile */
+}
+
+/* Form Container Styling */
+.registration-form {
+    background-color: #fff;  /* White background for contrast */
+    padding: 2rem;           /* Sufficient padding to avoid cramped appearance */
+    border-radius: 10px;     /* Rounded corners for a smooth look */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    width: 100%;
+    max-width: 500px;        /* Ensures the form doesn't stretch too wide */
+    margin: auto;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;          /* Dark blue for the heading */
+    font-size: 1.8rem;        /* Larger font size for emphasis */
+}
+
+/* Form Input Styles */
+.registration-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="number"],
+.registration-form textarea {
+    width: 100%;             /* Full width for consistency */
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;   /* Light grey border */
+    border-radius: 5px;       /* Slightly rounded corners */
+    font-size: 1rem;
+    transition: border-color 0.3s ease; /* Smooth transition for focus state */
+}
+
+.registration-form input:focus,
+.registration-form textarea:focus {
+    border-color: #27ae60;    /* Highlight input when focused with green color */
+    outline: none;
+}
+
+/* Textarea Styling */
+.registration-form textarea {
+    resize: vertical;         /* Allow vertical resizing only */
+    min-height: 120px;        /* Provide a minimum height */
+}
+
+/* Button Styling */
+.registration-form button {
+    width: 100%;
+    background-color: #27ae60; /* Green background for the button */
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase; /* Transform button text to uppercase */
+}
+
+.registration-form button:hover {
+    background-color: #1e8449; /* Darken the green on hover */
+}
+/* Form Input Styles */
+.registration-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Existing input styles */
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="number"],
+.registration-form input[type="password"], /* Added password input type */
+.registration-form textarea {
+    width: 100%;             
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;   
+    border-radius: 5px;       
+    font-size: 1rem;
+    transition: border-color 0.3s ease; 
+}
+
+/* Password Inputs */
+.registration-form input[type="password"]:focus {
+    border-color: #27ae60;    
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .registration-form {
+        padding: 1.5rem;
+    }
+
+    .registration-form h2 {
+        font-size: 1.5rem;  /* Adjust heading size for smaller screens */
+    }
+
+    .registration-form button {
+        font-size: 1rem;    /* Adjust button size for smaller screens */
+    }
+}
+
+</style>
+</head>
+<body>
+    <div class="registration-form">
+        <h2>Register Now</h2>
+        <form action="#">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message here"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+    </html>
+    
