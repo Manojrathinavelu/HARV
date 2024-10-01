@@ -1,18 +1,18 @@
 ## HARV: Empowering Farmers, Connecting Communities:
 ## MISSION:
-> To empower farmers by providing a direct-to-consumer platform that ensures fair pricing, fosters sustainable agriculture, and delivers fresh, locally sourced products to consumers efficiently.
+<ul><li>To empower farmers by providing a direct-to-consumer platform that ensures fair pricing, fosters sustainable agriculture, and delivers fresh, locally sourced products to consumers efficiently.</li> </ul>
 ## Vision:
-> To create a world where farming communities thrive through direct consumer relationships, sustainable practices, and a transparent supply chain that transforms how people access fresh food.
+ <ul><li>To create a world where farming communities thrive through direct consumer relationships, sustainable practices, and a transparent supply chain that transforms how people access fresh food.</li></ul>
 ## Description:
-><strong>Direct Farmer-to-Consumer Connection:</strong> HARV eliminates middlemen, connecting farmers directly with consumers.
-<strong>Smart Grading Algorithm:</strong> HARV assesses farmers using a grading algorithm based on:</br>
+<strong>Direct Farmer-to-Consumer Connection:</strong> HARV eliminates middlemen, connecting farmers directly with consumers.
 
+<strong>Smart Grading Algorithm:</strong> HARV assesses farmers using a grading algorithm based on:</br>
 <ul>
   <li>Locality</li></br>
   <li>Weather conditions</li></br>
   <li>Crop type</li></br>
   <li>Seasonality</li></br>
-  
+</ul>
 Only top-graded farmers are able to sell their produce on the platform, ensuring high-quality products.
 
 <strong>Consumer Review System:</strong>
