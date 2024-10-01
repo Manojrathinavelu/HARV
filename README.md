@@ -13,7 +13,7 @@ To empower farmers by providing a direct-to-consumer platform that ensures fair 
   <li>Crop type</li></br>
   <li>Seasonality</li></br>
 </ul>
-Only top-graded farmers are able to sell their produce on the platform, ensuring high-quality products.
+We issue certificates to farmers who excel, and they become the top recommended suggestions in our app</br>
 
 <strong>Consumer Review System:</strong>
 
