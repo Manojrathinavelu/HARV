@@ -5,22 +5,22 @@
 > To create a world where farming communities thrive through direct consumer relationships, sustainable practices, and a transparent supply chain that transforms how people access fresh food.
 ## Description:
 ><strong>Direct Farmer-to-Consumer Connection:</strong> HARV eliminates middlemen, connecting farmers directly with consumers.
-## Smart Grading Algorithm: HARV assesses farmers using a grading algorithm based on:
+<strong>Smart Grading Algorithm:</strong> HARV assesses farmers using a grading algorithm based on:</br>
 
-> Locality
-> Weather conditions
-> Crop type
-> Seasonality
+> Locality<\br>
+> Weather conditions</br>
+> Crop type</br>
+> Seasonality</br>
 Only top-graded farmers are able to sell their produce on the platform, ensuring high-quality products.
 
-## Consumer Review System:
->After each purchase, consumers can review and rate farmers.
+<strong>Consumer Review System:</strong>
+>After each purchase, consumers can review and rate farmers.</br>
 >Ratings influence the visibility and reputation of farmers, ensuring only consistently high-rated farmers succeed.
 
-## Farm-to-Table Subscription Service:
+<strong>Farm-to-Table Subscription Service:</strong>
 >Consumers can subscribe to receive fresh, seasonal produce directly from local farms.
 
-## Focus on Transparency and Sustainability:
+<strong>Focus on Transparency and Sustainability:</strong>
 
-HARV promotes transparency in the supply chain.
-Supports sustainable agriculture and fosters a thriving community for both farmers and consumers.
+>HARV promotes transparency in the supply chain.</br>
+>Supports sustainable agriculture and fosters a thriving community for both farmers and consumers.
