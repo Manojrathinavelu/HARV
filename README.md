@@ -7,7 +7,7 @@
 ><strong>Direct Farmer-to-Consumer Connection:</strong> HARV eliminates middlemen, connecting farmers directly with consumers.
 <strong>Smart Grading Algorithm:</strong> HARV assesses farmers using a grading algorithm based on:</br>
 
-> Locality<\br>
+> Locality</br>
 > Weather conditions</br>
 > Crop type</br>
 > Seasonality</br>
@@ -24,3 +24,11 @@ Only top-graded farmers are able to sell their produce on the platform, ensuring
 
 >HARV promotes transparency in the supply chain.</br>
 >Supports sustainable agriculture and fosters a thriving community for both farmers and consumers.
+## Features:
+<strong>Dynamic User Login:</strong> Separate login for farmers and customers.
+<strong>Product Marketplace:</strong> Explore fresh products directly from farmers.
+<strong>Secure Payment Gateway:</strong> Ensures secure transactions between farmers and consumers.
+<strong>User Dashboard:</strong> Farmers and customers have personalized dashboards.
+<strong>Farmer Profile:</strong> Farmers can create profiles, list products, and track sales and also they can post pictures of the crops.
+<strong>Review System:</strong>Customers can review products and farmers.
+<strong>Weather Forecast Integration:</strong> Helps farmers make informed decisions.
