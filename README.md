@@ -4,51 +4,51 @@ To empower farmers by providing a direct-to-consumer platform that ensures fair 
 ## Vision:
  To create a world where farming communities thrive through direct consumer relationships, sustainable practices, and a transparent supply chain that transforms how people access fresh food.
 ## Description:
-<strong>Direct Farmer-to-Consumer Connection:</strong> HARV eliminates middlemen, connecting farmers directly with consumers.
-
+<strong>Direct Farmer-to-Consumer Connection:</strong> HARV eliminates middlemen, connecting farmers directly with consumers.</br>
 <strong>Smart Grading Algorithm:</strong> HARV assesses farmers using a grading algorithm based on:</br>
 <ul>
-  <li>Locality</li></br>
-  <li>Weather conditions</li></br>
-  <li>Crop type</li></br>
-  <li>Seasonality</li></br>
+  <li>Locality</li>
+  <li>Weather conditions</li>
+  <li>Crop type</li>
+  <li>Seasonality</li>
 </ul>
 We issue certificates to farmers who excel, and they become the top recommended suggestions in our app</br>
-
 <strong>Consumer Review System:</strong>
-
 <ul>
-  <li>After each purchase, consumers can review and rate farmers.</li</br>
-  <li>Ratings influence the visibility and reputation of farmers, ensuring only consistently high-rated farmers succeed.</li></br>
+  <li>After each purchase, consumers can review and rate farmers.</li>
+  <li>Ratings influence the visibility and reputation of farmers, ensuring only consistently high-rated farmers succeed.</li>
 </ul>
-
 <strong>Farm-to-Table Subscription Service:</strong>
 <ul>
-  <li>Consumers can subscribe to receive fresh, seasonal produce directly from local farms.</li></br>
+  <li>Consumers can subscribe to receive fresh, seasonal produce directly from local farms.</li>
 </ul>
-
 <strong>Focus on Transparency and Sustainability:</strong>
 <ul>
-<li>HARV promotes transparency in the supply chain.</li></br>
-  
-<li>Supports sustainable agriculture and fosters a thriving community for both farmers and consumers.</li></ul>br>
-  
+<li>HARV promotes transparency in the supply chain.</li>
+<li>Supports sustainable agriculture and fosters a thriving community for both farmers and consumers.</li></ul>
 </ul>
 
 ## Features:
-<strong>Dynamic User Login:</strong> Separate login for farmers and customers.</br>
 
-<strong>Product Marketplace:</strong> Explore fresh products directly from farmers.</br>
+<strong>FARMERS</strong></br>
+<strong>Farmer Registration/Login:</strong> Farmers sign up or log in to their accounts and access their personalized dashboard.</br>
+<strong>Machine Learning Analysis:</strong>
+<ul>
+ <li>Farmers input data on soil tests, locality, weather conditions, and seasonal reports.</li>
+ <li>The ML model analyzes the data and provides feedback on the category of the farmer and assures if the farmer can able to yield the crops</li>
+ <li><strong>Upload Crop Photos:</strong> Farmers can upload images of their crops to attract buyers.</li>
+ <li><strong>Set Pricing:</strong> Farmers can set dynamic prices based on real-time market data, as well as adjust their pricing strategies according to seasonal demands.</li>
+ <li><strong>Manage Sales:</strong> Farmers can track the sales of their crops, see customer feedback, and adjust their practices based on consumer preferences and the ML model’s recommendations.</li>
+</ul>
 
-<strong>Secure Payment Gateway:</strong> Ensures secure transactions between farmers and consumers.</br>
-
-<strong>User Dashboard:</strong> Farmers and customers have personalized dashboards.</br>
-
-<strong>Farmer Profile:</strong> Farmers can create profiles, list products, and track sales and also they can post pictures of the crops.</br>
-
-<strong>Review System:</strong>Customers can review products and farmers.</br>
-
-<strong>Weather Forecast Integration:</strong> Helps farmers make informed decisions.</br>
+<strong>CUSTOMERS</strong>
+<ul>
+ <li>Consumer Registration/Login: Consumers create an account or log in to browse the available products.</li>
+ <li>Browse Products: Consumers can search or browse for crops by categories such as season, locality, or price.</li>
+ <li>Add to Cart: Consumers can add items to their cart for a seamless purchasing experience.</li>
+ <li>Checkout: Consumers can proceed to checkout, pay for their selected products, and arrange for delivery or pickup.</li>
+ <li>Rate Farmers: After purchase, consumers can leave ratings and reviews for farmers, influencing the visibility of the farmer's products on the platform.</li>
+</ul>
 
 ## TECHNOLOGY USED:
 <ul>
@@ -59,6 +59,10 @@ We issue certificates to farmers who excel, and they become the top recommended 
  <li>API:  Payment Gateway API</li>
  <li>Other Tools: GIT, Docker</li>
 </ul>
+
+## SCREENSHOT:
+
+
 
 
 
