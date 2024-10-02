@@ -60,7 +60,32 @@ We issue certificates to farmers who excel, and they become the top recommended 
  <li>Other Tools: GIT, Docker</li>
 </ul>
 
-## SCREENSHOT:
+## SCREENSHOT OF OUR APPLICATION:
+
+<strong>HOME PAGE:</strong>
+![image](https://github.com/user-attachments/assets/37e16267-a967-4569-ac59-f2cfdb597d0b)
+
+<strong>MOTIVE</strong>
+![image](https://github.com/user-attachments/assets/47663c22-2793-4250-afe9-e4afd1e63db6)
+
+<strong>USER INTERFACE</strong>:
+![image](https://github.com/user-attachments/assets/3a410008-fdba-4def-a812-586506d2351a)
+![image](https://github.com/user-attachments/assets/321154ea-8f6f-4bfe-b416-fe47546554e0)
+
+![image](https://github.com/user-attachments/assets/9aba4e9d-12e2-46dd-9c73-1b35405bf408)
+The star logo indicates the graded farmers products in our site.
+
+<strong>SUBSCRIPTION DETAILS:</strong>
+![image](https://github.com/user-attachments/assets/788b3559-bd1e-4bf9-abc4-76a9b56443e3)
+
+
+
+
+
+
+
+
+
 
 
 
