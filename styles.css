@@ -7,21 +7,18 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
-    color: #333;
+    
 }
-a {
+a{
     text-decoration: none;
     color: inherit;
 }
 
-header {
-    background-color: #2c3e50;
-    padding: 1rem 2rem;
-}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #28a745;
 }
 .logo {
     font-size: 1.8rem;
@@ -96,10 +93,19 @@ header {
   .nav-list li a:hover {
     background-color: #555;
   }
-  
+.green{
+    background-color: #27ae60;
+}
+.star-symbol {
+    color: #FFD700; /* Gold color for the star */
+    margin-right: 5px;
+    font-size: 1.2em;
+}
+
+
 /* Hero Section */
 .hero {
-    background-image: url('images/farmer.png');
+    background-image: url('images/home-ban.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -347,3 +353,7 @@ body {
 
 
 
+a{
+    text-decoration: none;
+    color: inherit;
+}

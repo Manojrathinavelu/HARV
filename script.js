@@ -32,7 +32,7 @@ function generateProductTiles() {
             <div class="product-tile">
                 <img src="${crop.image}" alt="${crop.name}" class="product-image">
                 <div class="product-info">
-                    <h3 class="product-name">${crop.name}</h3>
+                    <h3 class="product-name"><span class="star-symbol">★</span>${crop.name}</h3>
                     <p class="product-price">${crop.price}</p>
                     <div class="button-group">
                         <button class="details-btn" onclick="showDetails('${crop.name}')">Details</button>
