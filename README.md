@@ -66,10 +66,9 @@ We issue certificates to farmers who excel, and they become the top recommended 
 ![image](https://github.com/user-attachments/assets/37e16267-a967-4569-ac59-f2cfdb597d0b)
 
 <strong>MOTIVE</strong>
-![image](https://github.com/user-attachments/assets/47663c22-2793-4250-afe9-e4afd1e63db6)
+![image](https://github.com/user-attachments/assets/0f65d1c4-a40b-43cb-834f-ddb831530423)
 
 <strong>USER INTERFACE</strong>:
-![image](https://github.com/user-attachments/assets/3a410008-fdba-4def-a812-586506d2351a)
 ![image](https://github.com/user-attachments/assets/321154ea-8f6f-4bfe-b416-fe47546554e0)
 
 ![image](https://github.com/user-attachments/assets/9aba4e9d-12e2-46dd-9c73-1b35405bf408)
