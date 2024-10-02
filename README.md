@@ -73,6 +73,8 @@ We issue certificates to farmers who excel, and they become the top recommended 
 
 ![image](https://github.com/user-attachments/assets/9aba4e9d-12e2-46dd-9c73-1b35405bf408)
 The star logo indicates the graded farmers products in our site.
+![image](https://github.com/user-attachments/assets/174ee69c-1221-4699-a826-0127248efe8f)
+
 
 <strong>SUBSCRIPTION DETAILS:</strong>
 ![image](https://github.com/user-attachments/assets/788b3559-bd1e-4bf9-abc4-76a9b56443e3)
