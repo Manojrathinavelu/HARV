@@ -175,7 +175,7 @@ button:hover {
                     </tr>
                 </thead>
                 <tbody id="cart-items">
-                    <!-- Cart items will be loaded here -->
+                   
                 </tbody>
             </table>
             <div class="cart-summary">
@@ -184,17 +184,17 @@ button:hover {
             </div>
         </div>
 
-        <!-- Recommended Products Section -->
+      
         <div class="recommendation-section">
             <h2>Recommended Products</h2>
             <div id="recommended-products" class="product-list">
-                <!-- Recommended products will be loaded here -->
+                
             </div>
         </div>
     </div>
 
     <script>
-        // Load cart items from localStorage
+       
 function loadCartItems() {
     const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
     const cartTableBody = document.getElementById('cart-items');
@@ -218,7 +218,7 @@ function loadCartItems() {
     cartTotalElement.innerText = `Total: ₹${total}`;
 }
 
-// Sample recommended products
+
 const recommendedProducts = [
     { name: "Potato", price: "₹30/Kg", image: "data:image/jpeg;base64,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" },
     { name: "Banana", price: "₹40/Dozen", image: "data:image/jpeg;base64,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" },
@@ -226,7 +226,7 @@ const recommendedProducts = [
     { name: "Broccoli", price: "₹50/Unit", image: "https://cdn.britannica.com/15/136015-050-42C0D895/Broccoli.jpg" }
 ];
 
-// Load recommended products
+
 function loadRecommendedProducts() {
     const recommendedProductsContainer = document.getElementById('recommended-products');
 
@@ -245,11 +245,11 @@ function loadRecommendedProducts() {
     });
 }
 
-// Add recommended product to cart
+
 function addToCart(productName, productPrice) {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-    // Check if product already exists in the cart
+  
     const existingProduct = cart.find(item => item.name === productName);
     if (existingProduct) {
         existingProduct.quantity += 1;
@@ -262,18 +262,18 @@ function addToCart(productName, productPrice) {
     loadCartItems(); // Refresh cart items
 }
 
-// Simulate checkout process
+
 function checkout() {
     alert("Proceeding to Checkout...");
     window.location.href = "checkout.html"; // Redirect to checkout page
 }
 
-// Load everything on page load
+
 document.addEventListener('DOMContentLoaded', () => {
     loadCartItems();
     loadRecommendedProducts();
 });
-// Function to load cart items from localStorage and display them
+
 function loadCartItems() {
     const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
     const cartTableBody = document.getElementById('cart-items');
@@ -297,13 +297,13 @@ function loadCartItems() {
     cartTotalElement.innerText = `Total: ₹${total}`;
 }
 
-// Simulate checkout process
+
 function checkout() {
     alert("Proceeding to Payment...");
-    // You can add real payment integration here
+    
 }
 
-// Load the cart items when the page loads
+
 document.addEventListener('DOMContentLoaded', loadCartItems);
     </script>
 </body>
