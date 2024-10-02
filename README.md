@@ -79,9 +79,14 @@ The star logo indicates the graded farmers products in our site.
 <strong>SUBSCRIPTION DETAILS:</strong>
 ![image](https://github.com/user-attachments/assets/788b3559-bd1e-4bf9-abc4-76a9b56443e3)
 
+## Presentation:
+https://docs.google.com/presentation/d/1UCrhCOHtd9SmN5P0Cd8HWPSvSzHC3Tr3/edit?usp=sharing&ouid=106761535046858934059&rtpof=true&sd=true
 
+## Advertisement:
+https://drive.google.com/file/d/1uwXwByIUdWoOvsRcyFBLVQEwvX5RqGUK/view?usp=sharing
 
-
+## Poster:
+https://drive.google.com/file/d/1JhLTSDZnSfV0orm0xonbL6edYXciCnME/view?usp=sharing
 
 
 
